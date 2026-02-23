@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OZB Inc. | Technology &amp; Design</title>
+  <meta name="description" content="OZBは、iOSアプリ・Webシステム・デザイン・AI/ITコンサルティング事業を通じて、企業のデジタル変革を支援するテクノロジーカンパニーです。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== TICKER ========== -->
+  <div class="ticker" id="ticker">
+    <div class="ticker__track">
+      <span>iOS App Development</span><span class="ticker__dot">◆</span>
+      <span>Web System Development</span><span class="ticker__dot">◆</span>
+      <span>UI / UX Design</span><span class="ticker__dot">◆</span>
+      <span>IT &amp; AI Consulting</span><span class="ticker__dot">◆</span>
+      <span>System Architecture</span><span class="ticker__dot">◆</span>
+      <span>Digital Transformation</span><span class="ticker__dot">◆</span>
+      <span>iOS App Development</span><span class="ticker__dot">◆</span>
+      <span>Web System Development</span><span class="ticker__dot">◆</span>
+      <span>UI / UX Design</span><span class="ticker__dot">◆</span>
+      <span>IT &amp; AI Consulting</span><span class="ticker__dot">◆</span>
+      <span>System Architecture</span><span class="ticker__dot">◆</span>
+      <span>Digital Transformation</span><span class="ticker__dot">◆</span>
+    </div>
+  </div>
+
+  <!-- ========== HEADER / NAV ========== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo">
+        <img src="ozb_rogo.png" alt="OZB" />
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#about"    class="nav__link">About</a></li>
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#strength" class="nav__link">Strength</a></li>
+          <li><a href="#works"    class="nav__link">Works</a></li>
+          <li><a href="#flow"     class="nav__link">Flow</a></li>
+          <li><a href="#contact"  class="nav__link nav__link--cta">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+    </div>
+    <!-- Hero image (right side) -->
+    <div class="hero__image fade-up">
+      <img src="img/earth-01.svg" alt="アースカラーの風景" />
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <div class="hero__eyebrow fade-up">
+          <span class="hero__badge">Technology &amp; Design Company</span>
+        </div>
+        <h1 class="hero__title fade-up">
+          <span class="hero__title-line">ビジネスの未来を、</span>
+          <span class="hero__title-line hero__title-line--accent">テクノロジーで切り拓く</span>
+        </h1>
+        <p class="hero__desc fade-up">
+          OZBは、iOSアプリ・Webシステム・デザイン・AIコンサルティングを通じて、<br class="pc-only" />
+          企業のデジタル変革を一気通貫でサポートするテクノロジーカンパニーです。
+        </p>
+        <div class="hero__actions fade-up">
+          <a href="#services" class="btn btn--gold">
+            <span>サービスを見る</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#contact" class="btn btn--ghost">お問い合わせ</a>
+        </div>
+        <div class="hero__metrics fade-up">
+          <div class="hero__metric">
+            <span class="hero__metric-num">120<small>+</small></span>
+            <span class="hero__metric-label">納品プロジェクト</span>
+          </div>
+          <div class="hero__metric-divider"></div>
+          <div class="hero__metric">
+            <span class="hero__metric-num">98<small>%</small></span>
+            <span class="hero__metric-label">顧客継続率</span>
+          </div>
+          <div class="hero__metric-divider"></div>
+          <div class="hero__metric">
+            <span class="hero__metric-num">20<small>年+</small></span>
+            <span class="hero__metric-label">業界経験</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-bar"><div class="hero__scroll-thumb"></div></div>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE LOGOS (信頼感の演出) ========== -->
+  <section class="marquee-section">
+    <div class="marquee-section__label">Technologies &amp; Platforms</div>
+    <div class="marquee-wrap">
+      <div class="marquee-track">
+        <span>Swift</span><span>SwiftUI</span><span>React</span><span>Next.js</span>
+        <span>Node.js</span><span>Python</span><span>Go</span><span>TypeScript</span>
+        <span>AWS</span><span>Firebase</span><span>PostgreSQL</span><span>Docker</span>
+        <span>Figma</span><span>OpenAI API</span><span>Kubernetes</span><span>GraphQL</span>
+        <span>Swift</span><span>SwiftUI</span><span>React</span><span>Next.js</span>
+        <span>Node.js</span><span>Python</span><span>Go</span><span>TypeScript</span>
+        <span>AWS</span><span>Firebase</span><span>PostgreSQL</span><span>Docker</span>
+        <span>Figma</span><span>OpenAI API</span><span>Kubernetes</span><span>GraphQL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about__layout">
+        <div class="about__left fade-up">
+          <span class="section__label">About Us</span>
+          <h2 class="section__title">革新的な技術で、<br />ビジネスの成長を加速する。</h2>
+          <div class="about__divider"></div>
+          <p class="about__lead">
+            OZBは「技術で社会をより良くする」というビジョンのもと、
+            モバイルからクラウドまでフルスタックで対応できる精鋭エンジニア・デザイナーが集う会社です。
+          </p>
+          <p class="about__body">
+            スタートアップから上場企業まで、幅広いクライアントのプロジェクトに携わってきた豊富な経験を活かし、
+            要件定義・設計・開発・運用まで一気通貫でご支援します。
+            単なる受注開発にとどまらず、ビジネスパートナーとして長期的な関係を構築することを大切にしています。
+          </p>
+          <a href="#contact" class="btn btn--dark btn--arrow">
+            会社について詳しく見る
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <div class="about__right fade-up">
+          <div class="about__visual">
+            <div class="about__photo">
+              <img src="img/earth-03.svg" alt="ワークスペース" class="about__photo-img" />
+            </div>
+            <div class="about__card about__card--main">
+              <div class="about__card-inner">
+                <div class="about__card-icon">
+                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 3L3 10v12l13 7 13-7V10L16 3z" stroke="#b89a60" stroke-width="1.5" stroke-linejoin="round"/><path d="M3 10l13 7 13-7M16 17v12" stroke="#b89a60" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </div>
+                <p class="about__card-title">Enterprise Grade</p>
+                <p class="about__card-desc">エンタープライズ品質の開発体制</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- stat cards: full width below the two columns -->
+      <div class="about__stat-grid fade-up">
+        <div class="about__stat-card">
+          <span class="stat__num" data-target="120">0</span><span class="stat__unit">+</span>
+          <p class="stat__label">納品プロジェクト</p>
+        </div>
+        <div class="about__stat-card">
+          <span class="stat__num" data-target="98">0</span><span class="stat__unit">%</span>
+          <p class="stat__label">顧客継続率</p>
+        </div>
+        <div class="about__stat-card">
+          <span class="stat__num" data-target="20">0</span><span class="stat__unit">年+</span>
+          <p class="stat__label">業界経験</p>
+        </div>
+        <div class="about__stat-card">
+          <span class="stat__num" data-target="50">0</span><span class="stat__unit">+</span>
+          <p class="stat__label">対応企業数</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">Services</span>
+        <h2 class="section__title">サービス領域</h2>
+        <p class="section__sub">テクノロジーの力でビジネスを変革する6つのコアサービス</p>
+      </div>
+
+      <!-- 大型カード 上段 -->
+      <div class="services__featured">
+        <div class="service-featured fade-up">
+          <div class="service-featured__num">01</div>
+          <div class="service-featured__icon">
+            <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="2" width="36" height="52" rx="6" stroke="currentColor" stroke-width="2"/>
+              <circle cx="28" cy="47" r="2.5" fill="currentColor"/>
+              <rect x="18" y="9" width="20" height="2.5" rx="1.25" fill="currentColor"/>
+              <rect x="14" y="17" width="28" height="18" rx="3" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="service-featured__body">
+            <h3 class="service-featured__title">iOSアプリ開発</h3>
+            <p class="service-featured__desc">
+              Swift / SwiftUIを駆使した高品質なネイティブアプリ開発。
+              UXリサーチから設計・実装・App Storeリリース・運用まで完全対応。
+              複雑なビジネスロジックもエレガントに実装します。
+            </p>
+            <ul class="service-featured__list">
+              <li>要件定義・UXリサーチ</li>
+              <li>ネイティブアプリ設計・開発</li>
+              <li>API連携・バックエンド構築</li>
+              <li>App Store申請・運用保守</li>
+            </ul>
+            <div class="service-featured__tags">
+              <span>Swift</span><span>SwiftUI</span><span>UIKit</span><span>Combine</span><span>Firebase</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-featured fade-up">
+          <div class="service-featured__num">02</div>
+          <div class="service-featured__icon">
+            <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="9" width="52" height="34" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M18 51h20M28 43v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M12 24l7 6-7 6M27 32h12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="service-featured__body">
+            <h3 class="service-featured__title">Webサイト開発</h3>
+            <p class="service-featured__desc">
+              コーポレートサイト・LP・ECサイトまで、ブランドの価値を高める
+              高品質なWebサイトを制作。表示速度・SEO・アクセシビリティを徹底的に最適化します。
+            </p>
+            <ul class="service-featured__list">
+              <li>Webデザイン・プロトタイプ制作</li>
+              <li>レスポンシブ実装・パフォーマンス最適化</li>
+              <li>SEO対策・Core Web Vitals改善</li>
+              <li>CMS構築・コンテンツ更新サポート</li>
+            </ul>
+            <div class="service-featured__tags">
+              <span>React</span><span>Next.js</span><span>TypeScript</span><span>Figma</span><span>WordPress</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 小型カード 下段 -->
+      <div class="services__grid">
+        <div class="service-card fade-up">
+          <div class="service-card__num">03</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><ellipse cx="24" cy="14" rx="18" ry="6" stroke="currentColor" stroke-width="2"/><path d="M6 14v10c0 3.314 8.059 6 18 6s18-2.686 18-6V14" stroke="currentColor" stroke-width="2"/><path d="M6 24v10c0 3.314 8.059 6 18 6s18-2.686 18-6V24" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3 class="service-card__title">Webシステム開発</h3>
+          <p class="service-card__desc">業務効率化・DX推進のためのスケーラブルなWebシステムをスクラッチ開発。クラウドネイティブな設計で将来の拡張にも対応します。</p>
+          <div class="service-card__tags"><span>Node.js</span><span>Python</span><span>AWS</span><span>PostgreSQL</span></div>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-card__num">04</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="4" y="4" width="18" height="18" rx="3" stroke="currentColor" stroke-width="2"/><rect x="26" y="4" width="18" height="18" rx="3" stroke="currentColor" stroke-width="2"/><rect x="4" y="26" width="18" height="18" rx="3" stroke="currentColor" stroke-width="2"/><rect x="26" y="26" width="18" height="18" rx="3" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3 class="service-card__title">システム開発</h3>
+          <p class="service-card__desc">要件定義から設計・開発・テスト・リリースまでワンストップ対応。既存システムのモダナイズや基幹システム刷新も承ります。</p>
+          <div class="service-card__tags"><span>Java</span><span>Go</span><span>Docker</span><span>CI/CD</span></div>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-card__num">05</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 32l8-12 8 8 8-10 8 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="4" y="6" width="40" height="32" rx="3" stroke="currentColor" stroke-width="2"/><path d="M14 44h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">デザイン事業</h3>
+          <p class="service-card__desc">UI/UXデザインからブランドアイデンティティ構築まで。ユーザー視点と事業目標を両立したデザインでプロダクトの価値を高めます。</p>
+          <div class="service-card__tags"><span>UI/UX</span><span>Figma</span><span>ブランディング</span></div>
+        </div>
+
+        <div class="service-card fade-up">
+          <div class="service-card__num">06</div>
+          <div class="service-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="20" r="8" stroke="currentColor" stroke-width="2"/><path d="M8 42c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M36 8l2-2M38 8l-2-2M40 14h2M40 12v2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">IT &amp; AIコンサルティング</h3>
+          <p class="service-card__desc">最新AI・クラウド技術の戦略立案から実装まで。生成AI導入・データ活用・業務自動化でビジネス変革をリードします。</p>
+          <div class="service-card__tags"><span>AI/ML</span><span>OpenAI</span><span>DX推進</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EARTH IMAGE BAND ========== -->
+  <div class="earth-band">
+    <div class="earth-band__img earth-band__img--1">
+      <img src="img/earth-02.svg" alt="" aria-hidden="true" />
+    </div>
+    <div class="earth-band__img earth-band__img--2">
+      <img src="img/earth-05.svg" alt="" aria-hidden="true" />
+    </div>
+    <div class="earth-band__img earth-band__img--3">
+      <img src="img/earth-04.svg" alt="" aria-hidden="true" />
+    </div>
+  </div>
+
+  <!-- ========== STRENGTH ========== -->
+  <section class="section strength" id="strength">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">Why OZB</span>
+        <h2 class="section__title">OZBが選ばれる理由</h2>
+        <p class="section__sub">技術力・品質・コミュニケーションの三位一体で、期待を超えるアウトプットを実現します</p>
+      </div>
+      <div class="strength__grid">
+        <div class="strength-item fade-up">
+          <div class="strength-item__icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 3l2.8 8.6H25l-7.4 5.4 2.8 8.6L14 21l-6.4 4.6 2.8-8.6L4 11.6h8.2L14 3z" stroke="#b89a60" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="strength-item__title">ハイレベルな技術力</h3>
+          <p class="strength-item__desc">
+            全エンジニアが各専門領域でのプロフェッショナル。最新技術のキャッチアップを怠らず、
+            常にベストプラクティスに基づいた実装を提供します。コードレビュー・テスト文化が根付いており、高品質を担保します。
+          </p>
+        </div>
+        <div class="strength-item fade-up">
+          <div class="strength-item__icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="3" y="3" width="22" height="22" rx="4" stroke="#b89a60" stroke-width="1.5"/><path d="M8 14l4 4 8-8" stroke="#b89a60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="strength-item__title">透明性の高いプロジェクト管理</h3>
+          <p class="strength-item__desc">
+            週次定例・進捗ダッシュボード・GitHub/Notionを活用した情報共有で、
+            プロジェクトの状況を常に可視化。「言った言わない」が発生しない明瞭なコミュニケーションを徹底します。
+          </p>
+        </div>
+        <div class="strength-item fade-up">
+          <div class="strength-item__icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="11" stroke="#b89a60" stroke-width="1.5"/><path d="M14 8v6l4 2" stroke="#b89a60" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="strength-item__title">スピードと柔軟性</h3>
+          <p class="strength-item__desc">
+            アジャイル開発手法を採用し、2週間スプリントで着実に価値を届けます。
+            仕様変更や優先順位の見直しにも柔軟に対応。市場の変化に合わせた機動力ある開発を実現します。
+          </p>
+        </div>
+        <div class="strength-item fade-up">
+          <div class="strength-item__icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 20l6-8 5 5 5-7 4 5" stroke="#b89a60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 24h20" stroke="#b89a60" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="strength-item__title">事業成長へのコミット</h3>
+          <p class="strength-item__desc">
+            単なる受託開発に留まらず、KPI設定・ユーザー分析・グロースハックまで伴走。
+            プロダクトリリース後の改善サイクルも継続的にサポートし、ビジネスの成長に貢献します。
+          </p>
+        </div>
+        <div class="strength-item fade-up">
+          <div class="strength-item__icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 3C8 3 3 8 3 14s5 11 11 11 11-5 11-11" stroke="#b89a60" stroke-width="1.5" stroke-linecap="round"/><path d="M18 3l7 4-4 7" stroke="#b89a60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="strength-item__title">セキュリティ・品質保証</h3>
+          <p class="strength-item__desc">
+            セキュリティレビュー・脆弱性診断・自動テストを標準プロセスに組み込み。
+            OWASP基準に準拠した安全な実装と、品質ゲートを通過したコードのみをリリースします。
+          </p>
+        </div>
+        <div class="strength-item fade-up">
+          <div class="strength-item__icon">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M5 14h4l3-8 4 16 3-8h4" stroke="#b89a60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="strength-item__title">長期的なパートナーシップ</h3>
+          <p class="strength-item__desc">
+            顧客継続率98%が示す通り、長期的な信頼関係を構築することを最優先に。
+            リリース後の運用保守・機能追加・技術相談まで、ワンストップで対応します。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WORKS ========== -->
+  <section class="section works" id="works">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">Works</span>
+        <h2 class="section__title">実績・事例紹介</h2>
+        <p class="section__sub">OZBが手がけた多様なプロジェクトをご紹介します</p>
+      </div>
+
+      <!-- タブ切り替え（バインダー型） -->
+      <div class="works__tabs-wrapper fade-up">
+        <div class="works__tabs">
+          <button class="works__tab works__tab--active" data-tab="ios">
+            <svg width="15" height="15" viewBox="0 0 56 56" fill="none"><rect x="10" y="2" width="36" height="52" rx="6" stroke="currentColor" stroke-width="2.5"/><circle cx="28" cy="47" r="2.5" fill="currentColor"/></svg>
+            iOSアプリ
+          </button>
+          <button class="works__tab" data-tab="design">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            デザイン
+          </button>
+          <button class="works__tab" data-tab="site">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" stroke="currentColor" stroke-width="2"/></svg>
+            WEB構築
+          </button>
+        </div>
+      </div>
+
+      <!-- ===== タブパネル: iOSアプリ ===== -->
+      <div class="works__panel works__panel--active" id="tab-ios">
+        <div class="works__grid">
+
+          <!-- App 1: 飲み忘れゼロ -->
+          <article class="work-card fade-up">
+            <div class="work-card__visual work-card__visual--1">
+              <div class="work-card__visual-content">
+                <picture>
+                  <source srcset="img/okusuri_icon.webp" type="image/webp" />
+                  <img src="img/okusuri_icon.jpg" alt="飲み忘れゼロ アイコン" class="work-card__app-icon" loading="lazy" />
+                </picture>
+                <div class="work-card__visual-text">
+                  <div class="work-card__meta">
+                    <span class="work-card__industry">ヘルスケア・医療</span>
+                    <span class="work-card__period">個人開発</span>
+                  </div>
+                  <h3 class="work-card__title">飲み忘れゼロ<br>お薬リマインダーアプリ</h3>
+                  <p class="work-card__desc">朝・昼・夜・就寝前の服薬スケジュールを自由に設定。残薬管理・服用記録・家族への自動メール通知で、毎日の服薬をシンプルにサポート。</p>
+                </div>
+              </div>
+              <div class="work-card__category-row">
+                <span class="work-card__category">iOSアプリ開発</span>
+                <a href="https://ausbob003-arch.github.io/okusuri_ios/" target="_blank" rel="noopener noreferrer" class="work-card__sonar-btn">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline points="15 3 21 3 21 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="10" y1="14" x2="21" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  公式ページを見る
+                </a>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <div class="work-card__bottom-row">
+                <div class="work-card__results">
+                  <div class="work-result"><span class="work-result__num">4</span><span class="work-result__label">通知</span></div>
+                  <div class="work-result"><span class="work-result__num">自動</span><span class="work-result__label">残薬管理</span></div>
+                  <div class="work-result"><span class="work-result__num">家族</span><span class="work-result__label">見守り機能</span></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- App 2: ルートトラッカー -->
+          <article class="work-card fade-up">
+            <div class="work-card__visual work-card__visual--2">
+              <div class="work-card__visual-content">
+                <picture>
+                  <source srcset="img/RT_img.webp" type="image/webp" />
+                  <img src="img/RT_img.png" alt="ルートトラッカー アイコン" class="work-card__app-icon" loading="lazy" />
+                </picture>
+                <div class="work-card__visual-text">
+                  <div class="work-card__meta">
+                    <span class="work-card__industry">ライフスタイル・アウトドア</span>
+                    <span class="work-card__period">個人開発</span>
+                  </div>
+                  <h3 class="work-card__title">ルートトラッカー<br>散歩・ランニング記録アプリ</h3>
+                  <p class="work-card__desc">GPSを使ってウォーキングやランニングのルートをリアルタイム記録。距離・時間・カロリーを自動計算し、毎日の運動習慣をシンプルに管理。</p>
+                </div>
+              </div>
+              <div class="work-card__category-row">
+                <span class="work-card__category">iOSアプリ開発</span>
+                <a href="#contact" class="work-card__sonar-btn work-card__sonar-btn--pending">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><polyline points="12 6 12 12 16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  申請中
+                </a>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <div class="work-card__bottom-row">
+                <div class="work-card__results">
+                  <div class="work-result"><span class="work-result__num">GPS</span><span class="work-result__label">追跡</span></div>
+                  <div class="work-result"><span class="work-result__num">自動</span><span class="work-result__label">カロリー計算</span></div>
+                  <div class="work-result"><span class="work-result__num">履歴</span><span class="work-result__label">記録管理</span></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- App 3: ロト6予想アプリ -->
+          <article class="work-card fade-up">
+            <div class="work-card__visual work-card__visual--3">
+              <div class="work-card__visual-content">
+                <picture>
+                  <source srcset="img/loto6_img.webp" type="image/webp" />
+                  <img src="img/loto6_img.png" alt="ロト6予想アプリ アイコン" class="work-card__app-icon" loading="lazy" />
+                </picture>
+                <div class="work-card__visual-text">
+                  <div class="work-card__meta">
+                    <span class="work-card__industry">エンタメ・ギャンブル</span>
+                    <span class="work-card__period">個人開発</span>
+                  </div>
+                  <h3 class="work-card__title">俺のロト6<br>統計分析・予想アプリ</h3>
+                  <p class="work-card__desc">過去データの統計分析でロト6の数字選択をサポート。Hot/Cold分析・3つの自動生成モード・当選自動照合など、根拠を持って数字を選べるiOSアプリ。</p>
+                </div>
+              </div>
+              <div class="work-card__category-row">
+                <span class="work-card__category">iOSアプリ開発</span>
+                <a href="#contact" class="work-card__sonar-btn work-card__sonar-btn--pending">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><polyline points="12 6 12 12 16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  申請中
+                </a>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <div class="work-card__bottom-row">
+                <div class="work-card__results">
+                  <div class="work-result"><span class="work-result__num">3</span><span class="work-result__label">予想</span></div>
+                  <div class="work-result"><span class="work-result__num">自動</span><span class="work-result__label">当選照合</span></div>
+                  <div class="work-result"><span class="work-result__num">無料</span><span class="work-result__label">基本機能</span></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- App 4: GmailCalSync -->
+          <article class="work-card fade-up">
+            <div class="work-card__visual work-card__visual--4">
+              <div class="work-card__visual-content">
+                <picture>
+                  <source srcset="img/gc2_img.webp" type="image/webp" />
+                  <img src="img/gc2_img.png" alt="GmailCalSync アイコン" class="work-card__app-icon" loading="lazy" />
+                </picture>
+                <div class="work-card__visual-text">
+                  <div class="work-card__meta">
+                    <span class="work-card__industry">生産性・ビジネス</span>
+                    <span class="work-card__period">個人開発</span>
+                  </div>
+                  <h3 class="work-card__title">GmailCalSync<br>メール解析・カレンダー自動登録アプリ</h3>
+                  <p class="work-card__desc">Googleアカウントでログインするだけで、Gmailを自動解析。スケジュール関連メールを抽出し、Googleカレンダーへ自動登録。予定の入力漏れをゼロにする。</p>
+                </div>
+              </div>
+              <div class="work-card__category-row">
+                <span class="work-card__category">iOSアプリ開発</span>
+                <a href="#contact" class="work-card__sonar-btn work-card__sonar-btn--pending">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><polyline points="12 6 12 12 16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  申請中
+                </a>
+              </div>
+            </div>
+            <div class="work-card__body">
+              <div class="work-card__bottom-row">
+                <div class="work-card__results">
+                  <div class="work-result"><span class="work-result__num">自動</span><span class="work-result__label">解析</span></div>
+                  <div class="work-result"><span class="work-result__num">即時</span><span class="work-result__label">カレンダー登録</span></div>
+                  <div class="work-result"><span class="work-result__num">Google</span><span class="work-result__label">連携</span></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ===== タブパネル: デザイン ===== -->
+      <div class="works__panel" id="tab-design">
+        <div class="works__grid works__grid--design">
+
+          <!-- Design 1 -->
+          <article class="work-card-design fade-up">
+            <div class="work-card-design__img lightbox-trigger" data-src="img/design/new_001.png" data-webp="img/design/new_001.webp" data-caption="モバイルアプリ UI デザイン">
+              <picture>
+                <source srcset="img/design/new_001.webp" type="image/webp" />
+                <img src="img/design/new_001.png" alt="デザイン実績 01" loading="lazy" />
+              </picture>
+              <div class="work-card-design__overlay">
+                <span class="work-card-design__cat">UI / UX Design</span>
+                <span class="work-card-design__zoom-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="work-card-design__body">
+              <div class="work-card-design__tags">
+                <span>UI/UX</span><span>Figma</span><span>プロトタイピング</span>
+              </div>
+              <h3 class="work-card-design__title">モバイルアプリ UI デザイン</h3>
+              <p class="work-card-design__desc">ユーザーインタビューをもとにペルソナを設定し、直感的な操作フローを設計。情報設計からビジュアルデザインまで一貫して担当。</p>
+            </div>
+          </article>
+
+          <!-- Design 2 -->
+          <article class="work-card-design fade-up">
+            <div class="work-card-design__img lightbox-trigger" data-src="img/design/new_002.png" data-webp="img/design/new_002.webp" data-caption="コーポレートブランディング">
+              <picture>
+                <source srcset="img/design/new_002.webp" type="image/webp" />
+                <img src="img/design/new_002.png" alt="デザイン実績 02" loading="lazy" />
+              </picture>
+              <div class="work-card-design__overlay">
+                <span class="work-card-design__cat">Branding</span>
+                <span class="work-card-design__zoom-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="work-card-design__body">
+              <div class="work-card-design__tags">
+                <span>ブランディング</span><span>ロゴ</span><span>VI策定</span>
+              </div>
+              <h3 class="work-card-design__title">コーポレートブランディング</h3>
+              <p class="work-card-design__desc">ロゴ・カラーパレット・タイポグラフィを含むブランドアイデンティティを構築。ガイドライン策定で一貫したブランド表現を実現。</p>
+            </div>
+          </article>
+
+          <!-- Design 3 -->
+          <article class="work-card-design fade-up">
+            <div class="work-card-design__img lightbox-trigger" data-src="img/design/new_003.png" data-webp="img/design/new_003.webp" data-caption="業務管理ダッシュボード UI">
+              <picture>
+                <source srcset="img/design/new_003.webp" type="image/webp" />
+                <img src="img/design/new_003.png" alt="デザイン実績 03" loading="lazy" />
+              </picture>
+              <div class="work-card-design__overlay">
+                <span class="work-card-design__cat">Dashboard Design</span>
+                <span class="work-card-design__zoom-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="work-card-design__body">
+              <div class="work-card-design__tags">
+                <span>ダッシュボード</span><span>データビジュアライズ</span><span>BtoB</span>
+              </div>
+              <h3 class="work-card-design__title">業務管理ダッシュボード UI</h3>
+              <p class="work-card-design__desc">複雑な業務データをひと目で把握できるダッシュボードを設計。KPIの可視化とオペレーターの作業効率化を両立したUIを提供。</p>
+            </div>
+          </article>
+
+          <!-- Design 4 -->
+          <article class="work-card-design fade-up">
+            <div class="work-card-design__img lightbox-trigger" data-src="img/design/new_004.png" data-webp="img/design/new_004.webp" data-caption="会社案内・販促物デザイン">
+              <picture>
+                <source srcset="img/design/new_004.webp" type="image/webp" />
+                <img src="img/design/new_004.png" alt="デザイン実績 04" loading="lazy" />
+              </picture>
+              <div class="work-card-design__overlay">
+                <span class="work-card-design__cat">Print / DTP</span>
+                <span class="work-card-design__zoom-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="work-card-design__body">
+              <div class="work-card-design__tags">
+                <span>印刷物</span><span>DTP</span><span>パンフレット</span>
+              </div>
+              <h3 class="work-card-design__title">会社案内・販促物デザイン</h3>
+              <p class="work-card-design__desc">会社案内パンフレット・展示会用バナー・チラシなど、印刷物のレイアウトデザインから入稿データ作成まで対応。</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ===== タブパネル: ウェブサイト構築 ===== -->
+      <div class="works__panel" id="tab-site">
+        <div class="works__grid works__grid--site">
+
+          <!-- Site 1 -->
+          <article class="work-card-site fade-up">
+            <div class="work-card-site__img lightbox-trigger" data-src="img/site/site001.png" data-webp="img/site/site001.webp" data-caption="OZプラセンタ専門店">
+              <picture>
+                <source srcset="img/site/site001.webp" type="image/webp" />
+                <img src="img/site/site001.png" alt="ウェブサイト実績 01" loading="lazy" />
+              </picture>
+              <div class="work-card-site__overlay">
+                <span class="work-card-site__cat">EC Site</span>
+                <span class="work-card-site__zoom-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="work-card-site__body">
+              <div class="work-card-site__tags"><span>EC</span><span>デザイン</span><span>コンサルティング</span></div>
+              <h3 class="work-card-site__title">OZプラセンタ専門店</h3>
+              <p class="work-card-site__desc">オーストラリアのお土産屋さんが販路拡大のために人気商品をウェブで販売。デザインから制作コンサルティングまで対応した大人気サイト。</p>
+            </div>
+          </article>
+
+          <!-- Site 2 -->
+          <article class="work-card-site fade-up">
+            <div class="work-card-site__img lightbox-trigger" data-src="img/site/site002.png" data-webp="img/site/site002.webp" data-caption="ハガタ屋">
+              <picture>
+                <source srcset="img/site/site002.webp" type="image/webp" />
+                <img src="img/site/site002.png" alt="ウェブサイト実績 02" loading="lazy" />
+              </picture>
+              <div class="work-card-site__overlay">
+                <span class="work-card-site__cat">Corporate Site</span>
+                <span class="work-card-site__zoom-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="work-card-site__body">
+              <div class="work-card-site__tags"><span>職人</span><span>ブランディング</span><span>コーポレート</span></div>
+              <h3 class="work-card-site__title">ハガタ屋</h3>
+              <p class="work-card-site__desc">メイドインジャパンのクオリティを頑なに守る、社長のこだわりが詰まったサイト。ヨーロッパ高級自動車メーカーからも直接オファーが入るほどの職人事業。</p>
+            </div>
+          </article>
+
+          <!-- Site 3 -->
+          <article class="work-card-site fade-up">
+            <div class="work-card-site__img lightbox-trigger" data-src="img/site/site003.png" data-webp="img/site/site003.webp" data-caption="AAK Nature Watch">
+              <picture>
+                <source srcset="img/site/site003.webp" type="image/webp" />
+                <img src="img/site/site003.png" alt="ウェブサイト実績 03" loading="lazy" />
+              </picture>
+              <div class="work-card-site__overlay">
+                <span class="work-card-site__cat">Nature / Guide</span>
+                <span class="work-card-site__zoom-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="work-card-site__body">
+              <div class="work-card-site__tags"><span>ガイド</span><span>ネイチャー</span><span>多言語</span></div>
+              <h3 class="work-card-site__title">AAK Nature Watch</h3>
+              <p class="work-card-site__desc">ケアンズ唯一のプロフェッショナル野鳥観察ガイド。2,000件以上の記事と5,000枚以上の写真でケアンズの野鳥を紹介するプロ御用達サイト。</p>
+            </div>
+          </article>
+
+          <!-- Site 4 -->
+          <article class="work-card-site fade-up">
+            <div class="work-card-site__img lightbox-trigger" data-src="img/site/site004.png" data-webp="img/site/site004.webp" data-caption="Boon Boon Beauty Center">
+              <picture>
+                <source srcset="img/site/site004.webp" type="image/webp" />
+                <img src="img/site/site004.png" alt="ウェブサイト実績 04" loading="lazy" />
+              </picture>
+              <div class="work-card-site__overlay">
+                <span class="work-card-site__cat">Beauty Salon</span>
+                <span class="work-card-site__zoom-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="work-card-site__body">
+              <div class="work-card-site__tags"><span>ビューティー</span><span>新規開業</span><span>予約</span></div>
+              <h3 class="work-card-site__title">Boon Boon Beauty Center</h3>
+              <p class="work-card-site__desc">新規事業立ち上げに合わせて実店舗と同時にホームページを開設。上質なマッサージからネイルまで、ビューティー関連をトータルサポート。</p>
+            </div>
+          </article>
+
+          <!-- Site 5 -->
+          <article class="work-card-site fade-up">
+            <div class="work-card-site__img lightbox-trigger" data-src="img/site/site005.png" data-webp="img/site/site005.webp" data-caption="BONSAI Hair Salon">
+              <picture>
+                <source srcset="img/site/site005.webp" type="image/webp" />
+                <img src="img/site/site005.png" alt="ウェブサイト実績 05" loading="lazy" />
+              </picture>
+              <div class="work-card-site__overlay">
+                <span class="work-card-site__cat">Hair Salon</span>
+                <span class="work-card-site__zoom-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="work-card-site__body">
+              <div class="work-card-site__tags"><span>ヘアサロン</span><span>海外展開</span><span>着付け</span></div>
+              <h3 class="work-card-site__title">BONSAI Hair Salon</h3>
+              <p class="work-card-site__desc">女性オーナーが率いる老舗ヘアサロン。日本の技術を海外で展開し現地女性にも人気。カラー・パーマはもちろん着付けやヘアセットまでトータル対応。</p>
+            </div>
+          </article>
+
+          <!-- Site 6 -->
+          <article class="work-card-site fade-up">
+            <div class="work-card-site__img lightbox-trigger" data-src="img/site/site006.png" data-webp="img/site/site006.webp" data-caption="Australian Future Pty. Ltd.">
+              <picture>
+                <source srcset="img/site/site006.webp" type="image/webp" />
+                <img src="img/site/site006.png" alt="ウェブサイト実績 06" loading="lazy" />
+              </picture>
+              <div class="work-card-site__overlay">
+                <span class="work-card-site__cat">Wholesale / Beauty</span>
+                <span class="work-card-site__zoom-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                </span>
+              </div>
+            </div>
+            <div class="work-card-site__body">
+              <div class="work-card-site__tags"><span>ホールセール</span><span>OEM</span><span>貿易</span></div>
+              <h3 class="work-card-site__title">Australian Future Pty. Ltd.</h3>
+              <p class="work-card-site__desc">オーストラリアの美容ホールセールカンパニー。自社商品開発とホールセール事業を展開し、貿易による日本へのOEM展開にも注力している。</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== VOICE / TESTIMONIAL ========== -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">Client Voice</span>
+        <h2 class="section__title">お客様の声</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial fade-up">
+          <div class="testimonial__quote">"</div>
+          <p class="testimonial__text">
+            要件定義の段階から一緒に考えてくれ、想定以上のプロダクトが完成しました。
+            技術力はもちろん、コミュニケーションの丁寧さに特に満足しています。
+          </p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar testimonial__avatar--1">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="8" r="4" fill="currentColor"/>
+                <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" fill="currentColor"/>
+              </svg>
+            </div>
+            <div>
+              <p class="testimonial__name">田中 誠一郎</p>
+              <p class="testimonial__role">株式会社〇〇 代表取締役CEO</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial fade-up">
+          <div class="testimonial__quote">"</div>
+          <p class="testimonial__text">
+            AIシステムの導入で月200時間以上の業務を自動化できました。
+            単なる開発会社ではなく、ビジネスパートナーとして心強い存在です。
+          </p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar testimonial__avatar--2">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="8" r="4" fill="currentColor"/>
+                <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" fill="currentColor"/>
+              </svg>
+            </div>
+            <div>
+              <p class="testimonial__name">山田 真由美</p>
+              <p class="testimonial__role">△△株式会社 DX推進部 部長</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial fade-up">
+          <div class="testimonial__quote">"</div>
+          <p class="testimonial__text">
+            スピード感と品質の高さに驚きました。スプリントごとに価値が積み上がる
+            進め方が、事業の不確実性に柔軟に対応できて非常に助かりました。
+          </p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar testimonial__avatar--3">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="8" r="4" fill="currentColor"/>
+                <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" fill="currentColor"/>
+              </svg>
+            </div>
+            <div>
+              <p class="testimonial__name">佐藤 健太</p>
+              <p class="testimonial__role">××スタートアップ CTO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FLOW ========== -->
+  <section class="section flow" id="flow">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">Our Process</span>
+        <h2 class="section__title">プロジェクトの進め方</h2>
+        <p class="section__sub">初回のご相談から納品・運用まで、一貫してサポートします</p>
+      </div>
+      <div class="flow__timeline">
+        <div class="flow__item fade-up">
+          <div class="flow__item-left">
+            <div class="flow__item-num">01</div>
+            <div class="flow__item-line"></div>
+          </div>
+          <div class="flow__item-right">
+            <div class="flow__item-header">
+              <h3 class="flow__item-title">無料相談・ヒアリング</h3>
+              <span class="flow__item-duration">〜1週間</span>
+            </div>
+            <p class="flow__item-desc">プロジェクトの目標・課題・予算・スケジュールを丁寧にヒアリング。初回相談は完全無料です。現状の課題整理からお手伝いします。</p>
+            <ul class="flow__item-points">
+              <li>プロジェクト要件の整理</li>
+              <li>競合・市場調査</li>
+              <li>初期見積もり提示</li>
+            </ul>
+          </div>
+        </div>
+        <div class="flow__item fade-up">
+          <div class="flow__item-left">
+            <div class="flow__item-num">02</div>
+            <div class="flow__item-line"></div>
+          </div>
+          <div class="flow__item-right">
+            <div class="flow__item-header">
+              <h3 class="flow__item-title">企画・設計・提案</h3>
+              <span class="flow__item-duration">1〜2週間</span>
+            </div>
+            <p class="flow__item-desc">要件を整理し、技術スタック選定・システム設計・UIワイヤーフレームを作成してご提案。詳細見積もりと開発スケジュールを確定します。</p>
+            <ul class="flow__item-points">
+              <li>システムアーキテクチャ設計</li>
+              <li>UI/UXワイヤーフレーム作成</li>
+              <li>詳細見積もり・契約締結</li>
+            </ul>
+          </div>
+        </div>
+        <div class="flow__item fade-up">
+          <div class="flow__item-left">
+            <div class="flow__item-num">03</div>
+            <div class="flow__item-line"></div>
+          </div>
+          <div class="flow__item-right">
+            <div class="flow__item-header">
+              <h3 class="flow__item-title">アジャイル開発・実装</h3>
+              <span class="flow__item-duration">2週間スプリント</span>
+            </div>
+            <p class="flow__item-desc">2週間単位のスプリントで開発を進め、定期的にデモを実施。進捗・課題を透明に共有しながら、柔軟に優先順位を調整します。</p>
+            <ul class="flow__item-points">
+              <li>週次進捗報告・デモ実施</li>
+              <li>GitHub・Notionでの情報共有</li>
+              <li>ステージング環境での随時確認</li>
+            </ul>
+          </div>
+        </div>
+        <div class="flow__item fade-up">
+          <div class="flow__item-left">
+            <div class="flow__item-num">04</div>
+            <div class="flow__item-line flow__item-line--last"></div>
+          </div>
+          <div class="flow__item-right">
+            <div class="flow__item-header">
+              <h3 class="flow__item-title">品質保証・リリース</h3>
+              <span class="flow__item-duration">1〜2週間</span>
+            </div>
+            <p class="flow__item-desc">UAT（受入テスト）・セキュリティ診断・パフォーマンステストを実施後、本番リリース。リリース後の初期サポートも手厚く対応します。</p>
+            <ul class="flow__item-points">
+              <li>品質保証テスト・セキュリティ診断</li>
+              <li>本番リリース・申請サポート</li>
+              <li>リリース後の運用保守契約</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA BAND ========== -->
+  <section class="cta-band">
+    <div class="container">
+      <div class="cta-band__inner fade-up">
+        <div class="cta-band__text">
+          <p class="cta-band__label">Ready to start?</p>
+          <h2 class="cta-band__title">プロジェクトのご相談は<br />まず無料でお気軽に。</h2>
+        </div>
+        <div class="cta-band__actions">
+          <div class="btn-sonar-wrap">
+            <a href="#contact" class="btn btn--orange btn--lg">
+              無料相談を申し込む
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+          <p class="cta-band__note">通常2営業日以内にご連絡いたします</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact__layout">
+        <div class="contact__info fade-up">
+          <span class="section__label">Contact</span>
+          <h2 class="section__title">お問い合わせ</h2>
+          <p class="contact__desc">プロジェクトのご相談・お見積りはお気軽にご連絡ください。<br />専任担当者が通常2営業日以内にご返信いたします。</p>
+          <div class="contact__features">
+            <div class="contact__feature">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2l2.2 6.6H19l-5.6 4.1 2.1 6.6L10 15.2l-5.5 4.1 2.1-6.6L1 8.6h6.8L10 2z" stroke="#b89a60" stroke-width="1.2" stroke-linejoin="round"/></svg>
+              <span>初回相談・お見積り無料</span>
+            </div>
+            <div class="contact__feature">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="#b89a60" stroke-width="1.2"/><path d="M10 6v4l3 1.5" stroke="#b89a60" stroke-width="1.2" stroke-linecap="round"/></svg>
+              <span>2営業日以内に返信</span>
+            </div>
+            <div class="contact__feature">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 10a7 7 0 1 0 14 0A7 7 0 0 0 3 10z" stroke="#b89a60" stroke-width="1.2"/><path d="M8 10l2 2 4-4" stroke="#b89a60" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>NDA締結後の詳細相談も可</span>
+            </div>
+            <div class="contact__feature">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="3" y="5" width="14" height="11" rx="2" stroke="#b89a60" stroke-width="1.2"/><path d="M3 8l7 5 7-5" stroke="#b89a60" stroke-width="1.2" stroke-linecap="round"/></svg>
+              <span>オンライン・対面どちらも対応</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap fade-up">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">お名前 <span class="required">*</span></label>
+                <input type="text" id="name" name="name" placeholder="山田 太郎" required />
+              </div>
+              <div class="form-group">
+                <label for="company">会社名</label>
+                <input type="text" id="company" name="company" placeholder="株式会社〇〇" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">メールアドレス <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="info@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="tel">電話番号</label>
+                <input type="tel" id="tel" name="tel" placeholder="03-0000-0000" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">ご相談内容 <span class="required">*</span></label>
+              <select id="service" name="service" required>
+                <option value="">選択してください</option>
+                <option value="ios">iOSアプリ開発</option>
+                <option value="web">Webサイト開発</option>
+                <option value="websys">Webシステム開発</option>
+                <option value="sys">システム開発</option>
+                <option value="design">デザイン事業</option>
+                <option value="ai">IT &amp; AIコンサルティング</option>
+                <option value="other">その他・複合</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="budget">ご予算感</label>
+              <select id="budget" name="budget">
+                <option value="">選択してください（任意）</option>
+                <option>〜50万円</option>
+                <option>50万〜200万円</option>
+                <option>200万〜500万円</option>
+                <option>500万円以上</option>
+                <option>未定・相談したい</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">ご相談内容・メッセージ <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="プロジェクトの概要・課題・ご要件などをご記入ください。" required></textarea>
+            </div>
+            <div class="form-group form-group--checkbox">
+              <label class="checkbox-label">
+                <input type="checkbox" id="privacy" name="privacy" required />
+                <span class="checkbox-custom"></span>
+                <span class="checkbox-text"><a href="#" class="link">プライバシーポリシー</a>に同意する</span>
+              </label>
+            </div>
+            <button type="submit" class="btn btn--dark btn--full btn--lg contact-btn">
+              <span class="contact-btn__text">送信する</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </form>
+          <div class="contact-success" id="contactSuccess">
+            <div class="contact-success__icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#b89a60" stroke-width="2"/><path d="M14 24l7 7 13-14" stroke="#b89a60" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>お問い合わせを受け付けました</h3>
+            <p>担当者より2営業日以内にご連絡いたします。<br />しばらくお待ちください。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container footer__top-inner">
+        <div class="footer__brand">
+          <img src="ozb_rogo.png" alt="OZB" class="footer__logo" />
+          <p class="footer__tagline">ビジネスの未来を、テクノロジーで切り拓く。</p>
+          <p class="footer__address">〒000-0000 東京都渋谷区〇〇 0-0-0</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__links-col">
+            <p class="footer__links-heading">Services</p>
+            <ul>
+              <li><a href="#services">iOSアプリ開発</a></li>
+              <li><a href="#services">Webサイト開発</a></li>
+              <li><a href="#services">Webシステム開発</a></li>
+              <li><a href="#services">システム開発</a></li>
+              <li><a href="#services">デザイン事業</a></li>
+              <li><a href="#services">IT &amp; AIコンサルティング</a></li>
+            </ul>
+          </div>
+          <div class="footer__links-col">
+            <p class="footer__links-heading">Company</p>
+            <ul>
+              <li><a href="#about">会社概要</a></li>
+              <li><a href="#strength">OZBの強み</a></li>
+              <li><a href="#works">実績・事例</a></li>
+              <li><a href="#flow">開発の流れ</a></li>
+              <li><a href="#contact">採用情報</a></li>
+            </ul>
+          </div>
+          <div class="footer__links-col">
+            <p class="footer__links-heading">Contact</p>
+            <ul>
+              <li><a href="#contact">お問い合わせ</a></li>
+              <li><a href="#contact">無料相談</a></li>
+              <li><a href="#">プライバシーポリシー</a></li>
+              <li><a href="#">情報セキュリティ方針</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p class="footer__copy">&copy; 2024 OZB Inc. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">プライバシーポリシー</a>
+          <a href="#">特定商取引法</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="画像拡大表示">
+    <button class="lightbox__close" id="lightboxClose" aria-label="閉じる">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox__content">
+      <picture class="lightbox__picture">
+        <source id="lightboxWebpSource" type="image/webp" />
+        <img id="lightboxImg" src="" alt="" class="lightbox__img" />
+      </picture>
+      <p class="lightbox__caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9b8a0"/>
+      <stop offset="100%" stop-color="#e8d9c4"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b7355"/>
+      <stop offset="100%" stop-color="#5c4a32"/>
+    </linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a08060"/>
+      <stop offset="100%" stop-color="#7a6045"/>
+    </linearGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="blur2"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="520" fill="url(#sky)"/>
+
+  <!-- Distant haze -->
+  <ellipse cx="400" cy="290" rx="500" ry="80" fill="#d4c4a8" opacity="0.4" filter="url(#blur2)"/>
+
+  <!-- Far mountains -->
+  <polygon points="0,310 120,200 220,260 350,180 480,230 600,170 720,220 800,200 800,320 0,320" fill="#9e8870" opacity="0.6"/>
+  <polygon points="0,330 100,240 200,280 320,210 440,250 560,200 680,240 800,220 800,340 0,340" fill="#b09a80" opacity="0.5"/>
+
+  <!-- Mid ground hills -->
+  <path d="M0,370 Q100,320 200,355 Q300,390 400,345 Q500,300 600,340 Q700,380 800,355 L800,520 L0,520 Z" fill="url(#mid)"/>
+
+  <!-- Foreground ground -->
+  <path d="M0,430 Q150,410 300,440 Q450,470 600,435 Q720,410 800,425 L800,520 L0,520 Z" fill="url(#ground)"/>
+
+  <!-- Rocks -->
+  <ellipse cx="120" cy="445" rx="40" ry="18" fill="#6b5840" opacity="0.8"/>
+  <ellipse cx="108" cy="438" rx="28" ry="14" fill="#7a6548"/>
+  <ellipse cx="640" cy="450" rx="55" ry="22" fill="#6b5840" opacity="0.7"/>
+  <ellipse cx="625" cy="442" rx="38" ry="16" fill="#7a6548"/>
+
+  <!-- Sparse dry grass -->
+  <g fill="#c4a870" opacity="0.9">
+    <rect x="200" y="410" width="2" height="24" transform="rotate(-8,200,434)"/>
+    <rect x="205" y="412" width="2" height="20" transform="rotate(5,205,432)"/>
+    <rect x="210" y="409" width="2" height="26" transform="rotate(-12,210,435)"/>
+    <rect x="350" y="415" width="2" height="22" transform="rotate(6,350,437)"/>
+    <rect x="355" y="413" width="2" height="18" transform="rotate(-4,355,431)"/>
+    <rect x="500" y="408" width="2" height="28" transform="rotate(-10,500,436)"/>
+    <rect x="506" y="410" width="2" height="22" transform="rotate(8,506,432)"/>
+    <rect x="680" y="420" width="2" height="20" transform="rotate(-5,680,440)"/>
+    <rect x="685" y="418" width="2" height="24" transform="rotate(10,685,442)"/>
+  </g>
+
+  <!-- Sun / warm glow -->
+  <circle cx="620" cy="160" r="48" fill="#e8c87a" opacity="0.55" filter="url(#blur2)"/>
+  <circle cx="620" cy="160" r="28" fill="#f0d898" opacity="0.7"/>
+
+  <!-- Grain texture overlay -->
+  <rect width="800" height="520" fill="url(#sky)" opacity="0.04"/>
+</svg>

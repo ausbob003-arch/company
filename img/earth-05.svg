@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8dfd4"/>
+      <stop offset="100%" stop-color="#d0c4b0"/>
+    </linearGradient>
+    <linearGradient id="table5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8b090"/>
+      <stop offset="100%" stop-color="#a08868"/>
+    </linearGradient>
+    <filter id="s5"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#5a4a38" flood-opacity="0.18"/></filter>
+    <filter id="s5b"><feDropShadow dx="2" dy="4" stdDeviation="6" flood-color="#5a4a38" flood-opacity="0.15"/></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="url(#bg5)"/>
+
+  <!-- Subtle texture lines (linen/canvas feel) -->
+  <g stroke="#c8bfb0" stroke-width="0.6" opacity="0.25">
+    <line x1="0" y1="50"  x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+  </g>
+
+  <!-- Table top -->
+  <rect x="0" y="300" width="800" height="18" rx="3" fill="url(#table5)"/>
+  <rect x="0" y="315" width="800" height="205" fill="#8a7050"/>
+
+  <!-- Large device mockup: tablet/iPad flat lay -->
+  <rect x="200" y="140" width="400" height="270" rx="20" fill="#2a2420" filter="url(#s5)"/>
+  <rect x="212" y="152" width="376" height="246" rx="12" fill="#1a2228"/>
+  <!-- home bar -->
+  <rect x="370" y="396" width="60" height="5" rx="3" fill="#3a3430"/>
+  <!-- camera -->
+  <circle cx="400" cy="148" r="4" fill="#3a3430"/>
+
+  <!-- App UI on tablet -->
+  <!-- header bar -->
+  <rect x="212" y="152" width="376" height="40" rx="0" fill="#1e1a18"/>
+  <rect x="212" y="152" width="376" height="40" rx="12" fill="#1e1a18"/>
+  <rect x="212" y="172" width="376" height="20"        fill="#1e1a18"/>
+  <!-- nav items -->
+  <rect x="228" y="163" width="40" height="18" rx="6" fill="#c89040" opacity="0.9"/>
+  <rect x="276" y="166" width="30" height="12" rx="3" fill="#6a6058" opacity="0.6"/>
+  <rect x="314" y="166" width="38" height="12" rx="3" fill="#6a6058" opacity="0.6"/>
+  <rect x="360" y="166" width="28" height="12" rx="3" fill="#6a6058" opacity="0.6"/>
+  <rect x="524" y="163" width="52" height="18" rx="6" fill="#8a9070" opacity="0.7"/>
+
+  <!-- Content area -->
+  <!-- Hero block inside app -->
+  <rect x="220" y="202" width="175" height="100" rx="8" fill="#2a3040" opacity="0.8"/>
+  <rect x="228" y="212" width="80" height="10" rx="3" fill="#c89040" opacity="0.7"/>
+  <rect x="228" y="228" width="140" height="8"  rx="3" fill="#e0d8c8" opacity="0.5"/>
+  <rect x="228" y="242" width="120" height="8"  rx="3" fill="#e0d8c8" opacity="0.4"/>
+  <rect x="228" y="256" width="100" height="8"  rx="3" fill="#e0d8c8" opacity="0.35"/>
+  <rect x="228" y="276" width="60"  height="18" rx="6" fill="#c89040" opacity="0.8"/>
+
+  <!-- Card grid -->
+  <rect x="404" y="202" width="86" height="96" rx="8" fill="#282420" opacity="0.85"/>
+  <rect x="410" y="210" width="74" height="44" rx="4" fill="#3a4858" opacity="0.7"/>
+  <rect x="410" y="260" width="55" height="8"  rx="3" fill="#e0d0b8" opacity="0.5"/>
+  <rect x="410" y="274" width="40" height="7"  rx="3" fill="#8a8070" opacity="0.4"/>
+
+  <rect x="498" y="202" width="82" height="96" rx="8" fill="#282420" opacity="0.85"/>
+  <rect x="504" y="210" width="70" height="44" rx="4" fill="#4a3828" opacity="0.7"/>
+  <rect x="504" y="260" width="52" height="8"  rx="3" fill="#e0d0b8" opacity="0.5"/>
+  <rect x="504" y="274" width="38" height="7"  rx="3" fill="#8a8070" opacity="0.4"/>
+
+  <!-- Bottom row cards -->
+  <rect x="220" y="312" width="100" height="70" rx="8" fill="#282420" opacity="0.8"/>
+  <rect x="226" y="318" width="88"  height="36" rx="4" fill="#2a4038" opacity="0.7"/>
+  <rect x="226" y="360" width="65"  height="7"  rx="3" fill="#e0d0b8" opacity="0.45"/>
+
+  <rect x="328" y="312" width="100" height="70" rx="8" fill="#282420" opacity="0.8"/>
+  <rect x="334" y="318" width="88"  height="36" rx="4" fill="#402820" opacity="0.7"/>
+  <rect x="334" y="360" width="65"  height="7"  rx="3" fill="#e0d0b8" opacity="0.45"/>
+
+  <rect x="436" y="312" width="72"  height="70" rx="8" fill="#282420" opacity="0.8"/>
+  <rect x="442" y="318" width="60"  height="36" rx="4" fill="#2a2840" opacity="0.7"/>
+  <rect x="442" y="360" width="50"  height="7"  rx="3" fill="#e0d0b8" opacity="0.45"/>
+
+  <rect x="516" y="312" width="68"  height="70" rx="8" fill="#282420" opacity="0.8"/>
+  <rect x="522" y="318" width="56"  height="36" rx="4" fill="#383028" opacity="0.7"/>
+  <rect x="522" y="360" width="46"  height="7"  rx="3" fill="#e0d0b8" opacity="0.45"/>
+
+  <!-- Props around tablet -->
+  <!-- Glasses -->
+  <g fill="none" stroke="#5a4a38" stroke-width="2.5" stroke-linecap="round" transform="translate(80,320) rotate(-18)">
+    <ellipse cx="0"  cy="0" rx="22" ry="14"/>
+    <ellipse cx="52" cy="0" rx="22" ry="14"/>
+    <line x1="22"  y1="0" x2="30"  y2="0"/>
+    <line x1="-22" y1="0" x2="-50" y2="8"/>
+    <line x1="74"  y1="0" x2="100" y2="8"/>
+  </g>
+
+  <!-- Small succulent pot -->
+  <ellipse cx="688" cy="303" rx="26" ry="10" fill="#8a6840"/>
+  <path d="M662,303 Q662,335 688,338 Q714,335 714,303 Z" fill="#9a7848"/>
+  <ellipse cx="688" cy="283" rx="16" ry="25" fill="#7a9060" transform="rotate(-12,688,283)"/>
+  <ellipse cx="688" cy="283" rx="13" ry="22" fill="#8aa070" transform="rotate(15,688,283)"/>
+  <ellipse cx="688" cy="276" rx="9"  ry="16" fill="#6a8050"/>
+
+  <!-- Pen on table -->
+  <rect x="100" y="304" width="130" height="7" rx="3.5" fill="#c89050" transform="rotate(12,165,307)"/>
+  <polygon points="230,302 238,307 230,312" fill="#e8d090" transform="rotate(12,165,307)"/>
+</svg>
